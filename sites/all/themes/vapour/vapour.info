@@ -1,0 +1,46 @@
+;;	Info file generated with Node.js: Sun Sep 13 2015 14:56:01 GMT+0100 (BST)
+
+;;;;;;;;;;;;;;;;
+;;	meta
+;;;;;;;;;;;;;;;;
+
+name = vapour
+description = Theme developed for Vapour Generation Shop by Acronamy - Adam Crockett
+version = 1.0.0
+core = 7.x
+engine = phptemplate
+base theme = bootstrap
+screenshot = screenshot.png
+
+;;;;;;;;;;;;;;;;
+;;	styles
+;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = styles/main.css
+stylesheets[all][] = bootstrap-theme.min.css
+
+;;;;;;;;;;;;;;;;
+;;	scripts
+;;;;;;;;;;;;;;;;
+
+scripts[] = scripts/index.js
+
+;;;;;;;;;;;;;;;;
+;;	region
+;;;;;;;;;;;;;;;;
+
+regions[navigation_tier_one] = Navigation top
+regions[navigation_tier_two] = Navigation bottom
+regions[header] = Top Bar
+regions[highlight] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = Primary
+regions[sidebar_second] = Secondary
+regions[footer] = Footer
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+
+;;;;;;;;;;;;;;;;
+;;	settings
+;;;;;;;;;;;;;;;;
